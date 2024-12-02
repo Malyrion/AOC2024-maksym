@@ -28,13 +28,13 @@ def make_two_arrays(file_name)->[[int],[int]]:
 
 """
     Run through second array make a dictionary of howmuch would you multiply 
-    than run and multiply by indes of the dictionary
+    than run and multiply by index of the dictionary
 """
 
 def find_similarity_score(array1:[int],array2:[int])->int:
 
     """
-    Run throught array2 and make a dictionary of how many times each number is appearing
+    Run through array2 and make a dictionary of how many times each number is appearing
     than multiple each element form array1 based on count in the dictionary via the same key
 
     Args:
@@ -42,7 +42,7 @@ def find_similarity_score(array1:[int],array2:[int])->int:
          array2: second array of integers
 
     Returns:
-        simularity_score: the simularity_score between all elements in two arrays
+        similarity_score: the similarity_score between all elements in two arrays
 
     """
     repetition: Dict[int,int]={}

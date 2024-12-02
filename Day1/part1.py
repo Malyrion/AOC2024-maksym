@@ -7,10 +7,10 @@ def make_two_arrays(file_name)->[[int],[int]]:
     Read the txt file in specific format and returns two arrays
 
     Args:
-         file_name (txt): a txt file with two list of numbers saperated by "   " and "/n" on the second number in line
+         file_name (txt): a txt file with two list of numbers separated by "   " and "/n" on the second number in line
 
     Returns:
-        array1: the sum dstances between all elements in two arrays
+        array1: the sum distances between all elements in two arrays
         array2:
     """
     array1:[int]=[]
